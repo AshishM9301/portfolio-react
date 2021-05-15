@@ -1,0 +1,32 @@
+.navbar_container {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+
+.navbar_container div {
+  margin-left: 70px;
+  color: #8b8b8b;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar_container div.active {
+  color: #000;
+}
+
+.navbar_container div.active:hover {
+  border-bottom: 2px solid transparent;
+}
+
+.navbar_container div:hover {
+  color: #000;
+  border-bottom: 2px solid #8b8b8b;
+}

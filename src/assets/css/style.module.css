@@ -1,0 +1,18 @@
+@import url('./fonts.css');
+@import url('./navbar.module.css');
+@import '~@coreui/icons/css/all.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.body {
+  width: 1152px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
